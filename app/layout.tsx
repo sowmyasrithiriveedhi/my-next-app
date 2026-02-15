@@ -131,8 +131,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </header>
 
           <main style={{ flex: 1, padding: "20px", background: "#121212", color: "#ccc" }}>
-            {children}
-          </main>
+  {children}
+</main>
+
+<footer
+  style={{
+    background: "#a33db3",
+    color: "#ddd",
+    textAlign: "center",
+    padding: "10px",
+    fontSize: "14px"
+  }}
+>
+  © 2026 A to Z Company. All Rights Reserved.
+</footer>
+
         </div>
       </body>
     </html>
